@@ -1,0 +1,38 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SwiftUINavigations
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
+import Swift
+import SwiftUI
+@_exported import SwiftUINavigations
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class NavigationManager<T> : Combine.ObservableObject where T : Swift.Equatable {
+  public var routes: [T] {
+    get
+  }
+  public init(initial: T? = nil, debug: Swift.Bool = false)
+  public func push(_ route: T)
+  public func pop(animated: Swift.Bool = true)
+  public func popTo(_ route: T, inclusive: Swift.Bool = false, animated: Swift.Bool = true)
+  public func onSystemPop()
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_Concurrency.MainActor(unsafe) public struct SwiftUINavigationsHost<T, Screen> : SwiftUI.View where T : Swift.Equatable, Screen : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(_ navManager: SwiftUINavigations.NavigationManager<T>, @SwiftUI.ViewBuilder _ routeMap: @escaping (T) -> Screen)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s18SwiftUINavigations0aB4HostV4bodyQrvp", 0) __<T, Screen>
+}
+extension SwiftUI.View {
+  public func uipNavigationBarHidden(_ hidden: Swift.Bool) -> some SwiftUI.View
+  
+  public func uipNavigationTitle(_ title: Swift.String) -> some SwiftUI.View
+  
+}

@@ -1,0 +1,11 @@
+framework module SwiftUINavigations {
+  umbrella header "SwiftUINavigations.h"
+  export *
+
+  module * { export * }
+}
+
+module SwiftUINavigations.Swift {
+  header "SwiftUINavigations-Swift.h"
+  requires objc
+}

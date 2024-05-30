@@ -1,0 +1,1080 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftUINavigations",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "SwiftUINavigations"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SwiftUINavigations"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SwiftUINavigations"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NavigationManager",
+        "printedName": "NavigationManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "routes",
+            "printedName": "routes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18SwiftUINavigations17NavigationManagerC6routesSayxGvp",
+            "mangledName": "$s18SwiftUINavigations17NavigationManagerC6routesSayxGvp",
+            "moduleName": "SwiftUINavigations",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SwiftUINavigations17NavigationManagerC6routesSayxGvg",
+                "mangledName": "$s18SwiftUINavigations17NavigationManagerC6routesSayxGvg",
+                "moduleName": "SwiftUINavigations",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(initial:debug:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationManager",
+                "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18SwiftUINavigations17NavigationManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SwiftUINavigations17NavigationManagerC7initial5debugACyxGxSg_Sbtcfc",
+            "mangledName": "$s18SwiftUINavigations17NavigationManagerC7initial5debugACyxGxSg_Sbtcfc",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SwiftUINavigations17NavigationManagerC4pushyyxF",
+            "mangledName": "$s18SwiftUINavigations17NavigationManagerC4pushyyxF",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop(animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SwiftUINavigations17NavigationManagerC3pop8animatedySb_tF",
+            "mangledName": "$s18SwiftUINavigations17NavigationManagerC3pop8animatedySb_tF",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "popTo",
+            "printedName": "popTo(_:inclusive:animated:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SwiftUINavigations17NavigationManagerC5popTo_9inclusive8animatedyx_S2btF",
+            "mangledName": "$s18SwiftUINavigations17NavigationManagerC5popTo_9inclusive8animatedyx_S2btF",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSystemPop",
+            "printedName": "onSystemPop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18SwiftUINavigations17NavigationManagerC11onSystemPopyyF",
+            "mangledName": "$s18SwiftUINavigations17NavigationManagerC11onSystemPopyyF",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18SwiftUINavigations17NavigationManagerC",
+        "mangledName": "$s18SwiftUINavigations17NavigationManagerC",
+        "moduleName": "SwiftUINavigations",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<T where T : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftUINavigationsHost",
+        "printedName": "SwiftUINavigationsHost",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftUINavigationsHost",
+                "printedName": "SwiftUINavigations.SwiftUINavigationsHost<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:18SwiftUINavigations0aB4HostV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationManager",
+                "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:18SwiftUINavigations17NavigationManagerC"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18SwiftUINavigations0aB4HostVyACyxq_GAA17NavigationManagerCyxG_q_xctcfc",
+            "mangledName": "$s18SwiftUINavigations0aB4HostVyACyxq_GAA17NavigationManagerCyxG_q_xctcfc",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Equatable, τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<T, Screen where T : Swift.Equatable, Screen : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>>, SwiftUI._SafeAreaRegionsIgnoringLayout>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationControllerHost",
+                            "printedName": "SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_1"
+                              }
+                            ],
+                            "usr": "s:18SwiftUINavigations24NavigationControllerHostV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_EnvironmentKeyWritingModifier",
+                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "NavigationManager",
+                                    "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "GenericTypeParam",
+                                        "printedName": "τ_0_0"
+                                      }
+                                    ],
+                                    "usr": "s:18SwiftUINavigations17NavigationManagerC"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_EnvironmentKeyWritingModifier",
+                        "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NavigationStyle",
+                            "printedName": "SwiftUINavigations.NavigationStyle",
+                            "usr": "s:18SwiftUINavigations15NavigationStyleC"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_SafeAreaRegionsIgnoringLayout",
+                    "printedName": "SwiftUI._SafeAreaRegionsIgnoringLayout",
+                    "usr": "s:7SwiftUI30_SafeAreaRegionsIgnoringLayoutV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18SwiftUINavigations0aB4HostV4bodyQrvp",
+            "mangledName": "$s18SwiftUINavigations0aB4HostV4bodyQrvp",
+            "moduleName": "SwiftUINavigations",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>>, SwiftUI._SafeAreaRegionsIgnoringLayout>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationControllerHost",
+                                "printedName": "SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GenericTypeParam",
+                                    "printedName": "τ_0_0"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GenericTypeParam",
+                                    "printedName": "τ_0_1"
+                                  }
+                                ],
+                                "usr": "s:18SwiftUINavigations24NavigationControllerHostV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "NavigationManager",
+                                        "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "GenericTypeParam",
+                                            "printedName": "τ_0_0"
+                                          }
+                                        ],
+                                        "usr": "s:18SwiftUINavigations17NavigationManagerC"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_EnvironmentKeyWritingModifier",
+                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationStyle",
+                                "printedName": "SwiftUINavigations.NavigationStyle",
+                                "usr": "s:18SwiftUINavigations15NavigationStyleC"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_SafeAreaRegionsIgnoringLayout",
+                        "printedName": "SwiftUI._SafeAreaRegionsIgnoringLayout",
+                        "usr": "s:7SwiftUI30_SafeAreaRegionsIgnoringLayoutV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18SwiftUINavigations0aB4HostV4bodyQrvg",
+                "mangledName": "$s18SwiftUINavigations0aB4HostV4bodyQrvg",
+                "moduleName": "SwiftUINavigations",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Equatable, τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<T, Screen where T : Swift.Equatable, Screen : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18SwiftUINavigations0aB4HostV",
+        "mangledName": "$s18SwiftUINavigations0aB4HostV",
+        "moduleName": "SwiftUINavigations",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Equatable, τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<T, Screen where T : Swift.Equatable, Screen : SwiftUI.View>",
+        "declAttributes": [
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModifiedContent",
+                    "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>>, SwiftUI._SafeAreaRegionsIgnoringLayout>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ModifiedContent",
+                        "printedName": "SwiftUI.ModifiedContent<SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ModifiedContent",
+                            "printedName": "SwiftUI.ModifiedContent<SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>, SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationControllerHost",
+                                "printedName": "SwiftUINavigations.NavigationControllerHost<τ_0_0, τ_0_1>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GenericTypeParam",
+                                    "printedName": "τ_0_0"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "GenericTypeParam",
+                                    "printedName": "τ_0_1"
+                                  }
+                                ],
+                                "usr": "s:18SwiftUINavigations24NavigationControllerHostV"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "_EnvironmentKeyWritingModifier",
+                                "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationManager<τ_0_0>?>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "NavigationManager",
+                                        "printedName": "SwiftUINavigations.NavigationManager<τ_0_0>",
+                                        "children": [
+                                          {
+                                            "kind": "TypeNominal",
+                                            "name": "GenericTypeParam",
+                                            "printedName": "τ_0_0"
+                                          }
+                                        ],
+                                        "usr": "s:18SwiftUINavigations17NavigationManagerC"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ],
+                                "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI15ModifiedContentV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "_EnvironmentKeyWritingModifier",
+                            "printedName": "SwiftUI._EnvironmentKeyWritingModifier<SwiftUINavigations.NavigationStyle>",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "NavigationStyle",
+                                "printedName": "SwiftUINavigations.NavigationStyle",
+                                "usr": "s:18SwiftUINavigations15NavigationStyleC"
+                              }
+                            ],
+                            "usr": "s:7SwiftUI30_EnvironmentKeyWritingModifierV"
+                          }
+                        ],
+                        "usr": "s:7SwiftUI15ModifiedContentV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "_SafeAreaRegionsIgnoringLayout",
+                        "printedName": "SwiftUI._SafeAreaRegionsIgnoringLayout",
+                        "usr": "s:7SwiftUI30_SafeAreaRegionsIgnoringLayoutV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI15ModifiedContentV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftUINavigations",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "uipNavigationBarHidden",
+            "printedName": "uipNavigationBarHidden(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUINavigations.NavHiddenModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavHiddenModifier",
+                    "printedName": "SwiftUINavigations.NavHiddenModifier",
+                    "usr": "s:18SwiftUINavigations17NavHiddenModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP0A13UINavigationsE22uipNavigationBarHiddenyQrSbF",
+            "mangledName": "$s7SwiftUI4ViewP0A13UINavigationsE22uipNavigationBarHiddenyQrSbF",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "uipNavigationTitle",
+            "printedName": "uipNavigationTitle(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModifiedContent",
+                "printedName": "SwiftUI.ModifiedContent<τ_0_0, SwiftUINavigations.NavTitleModifier>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NavTitleModifier",
+                    "printedName": "SwiftUINavigations.NavTitleModifier",
+                    "usr": "s:18SwiftUINavigations16NavTitleModifierV"
+                  }
+                ],
+                "usr": "s:7SwiftUI15ModifiedContentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP0A13UINavigationsE18uipNavigationTitleyQrSSF",
+            "mangledName": "$s7SwiftUI4ViewP0A13UINavigationsE18uipNavigationTitleyQrSSF",
+            "moduleName": "SwiftUINavigations",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "Array",
+      "offset": 181,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 375,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 34,
+      "value": "\"SwiftUINavigation - Initialized.\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 45,
+      "value": "\"SwiftUINavigation - Pushing \""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 5,
+      "value": "\" route.\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 784,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 45,
+      "value": "\"SwiftUINavigation - \""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 5,
+      "value": "\" route popped.\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1053,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1077,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1104,
+      "length": 44,
+      "value": "\"SwiftUINavigation: Popping route \""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 1,
+      "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1203,
+      "length": 36,
+      "value": "\"SwiftUINavigation - Path is empty.\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 38,
+      "value": "\"SwiftUINavigation - Route not found.\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1484,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 48,
+      "value": "\"SwiftUINavigation - Popping \""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1612,
+      "length": 6,
+      "value": "\" routes\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
+      "length": 54,
+      "value": "\"SwiftUINavigation - \""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 1880,
+      "length": 5,
+      "value": "\" route popped by system\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "Array",
+      "offset": 3829,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3954,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "Array",
+      "offset": 4478,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 5681,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5796,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6571,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 6609,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 6644,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 6676,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 6825,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 7598,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7785,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akanksha.a\/Desktop\/SwiftUINavigations\/SwiftUINavigations\/SwiftUINavigations.swift",
+      "kind": "StringLiteral",
+      "offset": 8536,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
